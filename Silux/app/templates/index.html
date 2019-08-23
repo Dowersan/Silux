@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hola</title>
+    <link rel="stylesheet" href="{% static "css/theme.css" %}">
+</head>
+<body>
+    <header>
+        <h1>Blog</h1>
+        <h2>
+            <a href="admin/app/post/add/">Crear nuevo blog</a>
+        </h2>
+    </header>
+    {% for entrada in object_list %}
+        <h2>{{ entrada.title }}</h2>
+        <p>{{ entrada.text }}</p>
+    {% endfor %}
+    
+</body>
+</html>
