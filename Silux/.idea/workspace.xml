@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3649b20c-822a-4f66-916a-7fdf5b7f11c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Silux/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Silux/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Silux/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Silux/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/npm-debug.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/admin/css/autocomplete.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/admin/css/base.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" beforeDir="false" />
@@ -128,6 +127,9 @@
       <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/style.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo3.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,6 +169,13 @@
         <item name="db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="auth_user: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
         <item name="django_admin_log: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
       <path>
@@ -192,8 +201,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
         <option value="SCSS File" />
         <option value="CSS File" />
       </list>
@@ -209,6 +218,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -275,7 +285,10 @@
       <updated>1566521620761</updated>
       <workItem from="1566521622450" duration="6985000" />
       <workItem from="1566584029436" duration="12263000" />
-      <workItem from="1566609905847" duration="3887000" />
+      <workItem from="1566609905847" duration="5029000" />
+      <workItem from="1566661948511" duration="21384000" />
+      <workItem from="1566704327755" duration="753000" />
+      <workItem from="1566705102399" duration="353000" />
     </task>
     <servers />
   </component>
