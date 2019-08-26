@@ -1,67 +1,119 @@
-body{
+body {
   padding: 0;
   margin: 0;
+
+  background: url(".././img/logo4.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: soft-light;
+
+
+}
+
+div{
+  display: flex;
 }
 
 $bg_header: #ffb726;
 
-header{
+header {
   background-color: $bg_header;
   width: 100%;
   top: 0;
   display: flex;
   padding: 20px;
+
   position: fixed;
   font-family: 'Josefin Sans', sans-serif;
   flex-direction: row;
   align-content: center;
 
-  -webkit-box-shadow: 0px 10px 6px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 10px 6px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 10px 6px 0px rgba(0,0,0,0.75);
-
-  a{
-    color: blue;
-    font-size: 2rem;
-    text-decoration: none;
-  }
-
-  a:hover{
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+  -webkit-box-shadow: 0px 10px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 6px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 6px 0px rgba(0, 0, 0, 0.75);
 
 
-  .brand{
-    img{
+  .brand {
+    width: 50%;
+    display: flex;
+
+    img {
+      margin: 20px;
       width: 30%;
     }
   }
 
-  .menu {
+  .button {
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: space-around;
 
     li {
-      display: inline-block;
       margin-right: 20px;
+
+      button {
+        background-color: #FF9C25; /* Color Silux */
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        opacity: 0.6;
+
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+      }
+
+      button:hover {
+        opacity: 1;
+      }
     }
   }
 
-  h1{
+  h1 {
+    margin: 20px;
     text-align: right;
   }
-  h2{
+
+  h2 {
     margin: 15px;
     padding: 15px;
   }
 
 }
 
-main{
-  margin-top: 170px;
-  margin-left: 15px;
+main {
+  margin-top: 160px;
+  border: solid black;
+  padding: 100px;
+  margin-left: 20px; /*centra horizontal los elementos "flex"*/
+  align-items: center; /*Centra verticalmente los elementos "flex"*/
+  box-sizing: border-box;
+
+
+
+  .agrupar {
+    border: 1px solid black;
+    text-align: center;
+    display: block;
+    background-color: rgba(255, 156, 37, .3);
+
+    margin: 20px;
+    width: 600px;
+  }
+
+}
+
+footer{
+  display: block;
+  margin: 20px;
 }

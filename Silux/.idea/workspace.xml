@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3649b20c-822a-4f66-916a-7fdf5b7f11c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/userprofiles/static/css_user/theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Silux/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Silux/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userprofiles/templates/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/userprofiles/templates/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userprofiles/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/userprofiles/templates/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userprofiles/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/userprofiles/templates/signup.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,8 +83,8 @@
       <list>
         <option value="HTML File" />
         <option value="Python Script" />
-        <option value="SCSS File" />
         <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -91,12 +97,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/userprofiles/static/css_user" />
       <recent name="$PROJECT_DIR$/app/static/css" />
     </key>
   </component>
@@ -163,7 +170,9 @@
       <workItem from="1566661948511" duration="21384000" />
       <workItem from="1566704327755" duration="753000" />
       <workItem from="1566705102399" duration="4520000" />
-      <workItem from="1566747418065" duration="1022000" />
+      <workItem from="1566747418065" duration="4556000" />
+      <workItem from="1566835251027" duration="4269000" />
+      <workItem from="1566842538174" duration="14174000" />
     </task>
     <servers />
   </component>
