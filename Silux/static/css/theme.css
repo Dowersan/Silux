@@ -1,6 +1,16 @@
 body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  background: url(".././img/logo4.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: soft-light; }
+
+div {
+  display: flex; }
 
 header {
   background-color: #ffb726;
@@ -15,30 +25,61 @@ header {
   -webkit-box-shadow: 0px 10px 6px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 10px 6px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 10px 6px 0px rgba(0, 0, 0, 0.75); }
-  header a {
-    color: blue;
-    font-size: 2rem;
-    text-decoration: none; }
-  header a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline; }
-  header .brand img {
-    width: 30%; }
-  header .menu {
+  header .brand {
+    width: 50%;
+    display: flex; }
+    header .brand img {
+      margin: 20px;
+      width: 30%; }
+  header .button {
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: space-around; }
-    header .menu li {
-      display: inline-block;
+    header .button li {
       margin-right: 20px; }
+      header .button li button {
+        background-color: #FF9C25;
+        /* Color Silux */
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        opacity: 0.6;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 10px;
+        border-radius: 10px; }
+      header .button li button:hover {
+        opacity: 1; }
   header h1 {
+    margin: 20px;
     text-align: right; }
   header h2 {
     margin: 15px;
     padding: 15px; }
 
 main {
-  margin-top: 170px;
-  margin-left: 15px; }
+  margin-top: 160px;
+  border: solid black;
+  padding: 100px;
+  margin-left: 20px;
+  /*centra horizontal los elementos "flex"*/
+  align-items: center;
+  /*Centra verticalmente los elementos "flex"*/
+  box-sizing: border-box; }
+  main .agrupar {
+    border: 1px solid black;
+    text-align: center;
+    display: block;
+    background-color: rgba(255, 156, 37, 0.3);
+    margin: 20px;
+    width: 600px; }
+
+footer {
+  display: block;
+  margin: 20px; }
