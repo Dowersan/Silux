@@ -1,16 +1,21 @@
 from django.shortcuts import render
-from .forms import UserCreationEmailForm, EmailAuthenticationForm
+from .forms import  EmailAuthenticationForm
 from django.contrib.auth import login
-
+from django.contrib.auth.models import Permission, User
+from django.contrib.auth.forms import UserCreationForm
 
 # Create your views here.
 
+
 def signup(request):
-    form = UserCreationEmailForm(request.POST or None)
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        user_exist = User.objects.filter(email=request.POST.get('email', None))
+        if not user_exist:
+            if form.is_valid():
+                form.save()
 
-    if form.is_valid():
-        form.save()
-
+    form = UserCreationForm()
     return render(request, 'signup.html', {'form': form})
 
 

@@ -15,6 +15,8 @@
         <form action="" method="post">
             {% csrf_token %}
             {{ form.as_p }}
+            <!--<button type="submit" class="enlace" role="link" onclick="window.location='admin/app/post/add/'">Crear nuevo blog
+            </button>-->
             <input type="submit" value="Submit">
         </form>
     </section>

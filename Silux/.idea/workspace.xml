@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3649b20c-822a-4f66-916a-7fdf5b7f11c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/static/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Silux/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Silux/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userprofiles/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/userprofiles/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userprofiles/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/userprofiles/templates/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userprofiles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userprofiles/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,6 +124,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Silux.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -166,7 +171,14 @@
       <workItem from="1566705102399" duration="4520000" />
       <workItem from="1566747418065" duration="4556000" />
       <workItem from="1566835251027" duration="4269000" />
-      <workItem from="1566842538174" duration="14449000" />
+      <workItem from="1566842538174" duration="15158000" />
+      <workItem from="1566926348097" duration="4726000" />
+      <workItem from="1567024138429" duration="3499000" />
+      <workItem from="1567042739463" duration="5879000" />
+      <workItem from="1567084643564" duration="1739000" />
+      <workItem from="1567089205842" duration="5772000" />
+      <workItem from="1567103899101" duration="4922000" />
+      <workItem from="1567259284458" duration="3213000" />
     </task>
     <servers />
   </component>
@@ -185,5 +197,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/userprofiles/views.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
