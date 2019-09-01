@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3649b20c-822a-4f66-916a-7fdf5b7f11c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Silux/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Silux/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userprofiles/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/userprofiles/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userprofiles/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/userprofiles/templates/signin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userprofiles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userprofiles/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,6 +174,9 @@
       <workItem from="1567089205842" duration="5772000" />
       <workItem from="1567103899101" duration="4922000" />
       <workItem from="1567259284458" duration="3213000" />
+      <workItem from="1567271496997" duration="27000" />
+      <workItem from="1567272389500" duration="26000" />
+      <workItem from="1567283733560" duration="13000" />
     </task>
     <servers />
   </component>
